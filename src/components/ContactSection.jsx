@@ -135,7 +135,7 @@ const ContactSection = ({ darkMode }) => {
                       darkMode ? "text-gray-300" : "text-gray-600"
                     }`}
                   >
-                    www.mionitra.com
+                    https://portfolio-2025-iota-two.vercel.app/
                   </p>
                 </div>
               </div>
