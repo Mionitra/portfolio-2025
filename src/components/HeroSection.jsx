@@ -29,7 +29,7 @@ const HeroSection = ({ darkMode }) => {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-[calc(100vh-80px)] flex justify-around flex-row-reverse items-center overflow-hidden px-20">
+    <section id="home" className="relative min-h-[calc(100vh-80px)] flex justify-around flex-row-reverse items-center md:px-20">
       <img src="/media/images/Mionitra1.png" alt="" className='h-96' />
       
       <div className="container mx-auto px-4 z-10">
