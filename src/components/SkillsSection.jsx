@@ -3,7 +3,7 @@ import * as echarts from 'echarts';
 
 const SkillsSection = ({ darkMode }) => {
   useEffect(() => {
-    const frameworks = ['React', 'Vue', 'Django', 'TailwindCSS'];
+    const frameworks = ['React', 'Sass', 'Django', 'TailwindCSS'];
     const proficiencies = [95, 88, 82, 90];
     
     frameworks.forEach((framework, index) => {
@@ -72,7 +72,7 @@ const SkillsSection = ({ darkMode }) => {
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {['React', 'Vue', 'Django', 'TailwindCSS'].map((framework, index) => (
+          {['React', 'Sass', 'Django', 'TailwindCSS'].map((framework, index) => (
             <div 
               key={index} 
               className={`p-6 rounded-xl transition-all duration-300 hover:scale-105 ${darkMode ? 'bg-[#1e293b] hover:shadow-lg hover:shadow-purple-500/20' : 'bg-white hover:shadow-xl'}`}
@@ -84,7 +84,7 @@ const SkillsSection = ({ darkMode }) => {
                 </div>
                 <i className={`text-3xl fab ${
                   framework === 'React' ? 'fa-react text-blue-400' : 
-                  framework === 'Vue' ? 'fa-vuejs text-green-500' : 
+                  framework === 'Sass' ? 'fa-Sassjs text-green-500' : 
                   framework === 'Django' ? 'fa-python text-green-700' : 
                   'fa-css3 text-blue-500'
                 }`}></i>
@@ -102,11 +102,11 @@ const SkillsSection = ({ darkMode }) => {
                       <li>React Testing Library</li>
                     </>
                   )}
-                  {framework === 'Vue' && (
+                  {framework === 'Sass' && (
                     <>
-                      <li>Vuex & Pinia</li>
-                      <li>Vue Router</li>
-                      <li>Composition API</li>
+                      <li>Responsive Design (Media Queries, Mobile First)</li>
+                      <li>Modularization</li>
+                      <li>SCSS/Sass</li>
                     </>
                   )}
                   {framework === 'Django' && (

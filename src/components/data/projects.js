@@ -12,7 +12,7 @@ const projects = [
       id: 2,
       title: "Food Delivery App",
       description: "Find and order food from your favorite restaurants with a sleek design and fast performance.",
-      technologies: ["Vue", "Django", "TailwindCSS"],
+      technologies: ["Sass", "Django", "TailwindCSS"],
       image: "/media/images/food.png",
       liveLink: "#",
       githubLink: "https://github.com/Mionitra/projects"
@@ -30,7 +30,7 @@ const projects = [
       id: 4,
       title: "Cars Marketplace",
       description: "Browse and buy cars with a user-friendly interface, showcasing detailed listings and images.",
-      technologies: ["React", "Vue", "TailwindCSS", "Django"],
+      technologies: ["React", "Sass", "TailwindCSS", "Django"],
       image: "/media/images/cc.png",
       liveLink: "#",
       githubLink: "https://github.com/Mionitra/pre-hack"
