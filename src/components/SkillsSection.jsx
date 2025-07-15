@@ -4,7 +4,7 @@ import * as echarts from 'echarts';
 const SkillsSection = ({ darkMode }) => {
   useEffect(() => {
     const frameworks = ['React', 'Sass', 'Django', 'TailwindCSS'];
-    const proficiencies = [95, 88, 82, 90];
+    const proficiencies = [95, 73, 82, 90];
     
     frameworks.forEach((framework, index) => {
       const chartDom = document.getElementById(`skill-chart-${index}`);
@@ -72,7 +72,7 @@ const SkillsSection = ({ darkMode }) => {
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {['React', 'Sass', 'Django', 'TailwindCSS'].map((framework, index) => (
+          {['React', 'Java', 'Django', 'TailwindCSS'].map((framework, index) => (
             <div 
               key={index} 
               className={`p-6 rounded-xl transition-all duration-300 hover:scale-105 ${darkMode ? 'bg-[#1e293b] hover:shadow-lg hover:shadow-purple-500/20' : 'bg-white hover:shadow-xl'}`}
@@ -84,7 +84,7 @@ const SkillsSection = ({ darkMode }) => {
                 </div>
                 <i className={`text-3xl fab ${
                   framework === 'React' ? 'fa-react text-blue-400' : 
-                  framework === 'Sass' ? 'fa-Sassjs text-green-500' : 
+                  framework === 'Java' ? 'fa-java text-red-500' : 
                   framework === 'Django' ? 'fa-python text-green-700' : 
                   'fa-css3 text-blue-500'
                 }`}></i>
@@ -102,11 +102,10 @@ const SkillsSection = ({ darkMode }) => {
                       <li>React Testing Library</li>
                     </>
                   )}
-                  {framework === 'Sass' && (
+                  {framework === 'Java' && (
                     <>
-                      <li>Responsive Design (Media Queries, Mobile First)</li>
-                      <li>Modularization</li>
-                      <li>SCSS/Sass</li>
+                      <li>Programmation Orientée Objet(POO)</li>
+                      <li>Multithreading</li>
                     </>
                   )}
                   {framework === 'Django' && (

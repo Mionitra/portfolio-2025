@@ -28,7 +28,7 @@ const ProjectsSection = ({ darkMode }) => {
             All
           </button>
           
-          {['React', 'Scss', 'Django', 'TailwindCSS'].map((tech, index) => (
+          {['React', 'Java', 'Django', 'TailwindCSS'].map((tech, index) => (
             <button 
               key={index}
               onClick={() => setActiveFilter(tech)} 

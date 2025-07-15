@@ -34,6 +34,15 @@ const projects = [
       image: "/media/images/cc.png",
       liveLink: "#",
       githubLink: "https://github.com/Mionitra/pre-hack"
+    },
+    {
+      id: 5,
+      title: "To do Application",
+      description: "Add notes with a user-friendly interface",
+      technologies: ["Java Swing", "Java"],
+      image: "/media/images/cc.png",
+      liveLink: "#",
+      githubLink: "https://github.com/Mionitra/java-swing"
     }
   ];
 

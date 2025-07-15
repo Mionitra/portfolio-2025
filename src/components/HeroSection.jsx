@@ -41,7 +41,7 @@ const HeroSection = ({ darkMode }) => {
           </div>
           
           <div className="flex flex-wrap gap-4 mb-8">
-            {['React', 'Vue', 'Django', 'TailwindCSS'].map((tech, index) => (
+            {['React', 'Django', 'TailwindCSS', 'Java'].map((tech, index) => (
               <div 
                 key={index} 
                 className={`px-4 py-2 rounded-full ${darkMode ? 'bg-[#1e293b]' : 'bg-[#e9ecef]'} flex items-center gap-2 animate-float`}
@@ -49,8 +49,9 @@ const HeroSection = ({ darkMode }) => {
               >
                 <i className={`fab ${
                   tech === 'React' ? 'fa-react' : 
-                  tech === 'Vue' ? 'fa-vuejs' : 
+                  tech === 'TailwindCSS' ? 'fa-css3' : 
                   tech === 'Django' ? 'fa-python' : 
+                  tech === 'Java' ? 'fa-java' : 
                   'fa-css3'
                 }`}></i>
                 {tech}
