@@ -34,7 +34,8 @@ const HeroSection = ({ darkMode }) => {
       
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-500 animate-gradient">Mionitra</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">RAKOTONDRADAORO Lova</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-500 animate-gradient">Mionitra</h1>
           <div className="text-xl md:text-2xl mb-8">
             <span>{typedText}</span>
             <span className={`ml-1 inline-block w-2 h-6 bg-[#6366f1] ${cursorVisible ? 'opacity-100' : 'opacity-0'}`}></span>
