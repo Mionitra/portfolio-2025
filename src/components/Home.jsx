@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-[#0f172a] text-[#f8fafc]' : 'bg-[#f0fff1] text-[#1e293b]'}`}>
+    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-[#0f172a] text-[#f8fafc]' : 'bg-gray-200 text-[#1e293b]'}`}>
       {/* Futuristic Grid Lines Background */}
       <div className="fixed inset-0 z-0 opacity-10 pointer-events-none">
         <div className="absolute inset-0 grid grid-cols-12 gap-4">

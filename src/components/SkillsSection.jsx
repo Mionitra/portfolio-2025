@@ -75,7 +75,7 @@ const SkillsSection = ({ darkMode }) => {
           {['React', 'Java', 'Django', 'TailwindCSS'].map((framework, index) => (
             <div 
               key={index} 
-              className={`p-6 rounded-xl transition-all duration-300 hover:scale-105 ${darkMode ? 'bg-[#1e293b] hover:shadow-lg hover:shadow-purple-500/20' : 'bg-white hover:shadow-xl'}`}
+              className={`p-6 rounded-xl transition-all duration-300 hover:scale-105 ${darkMode ? 'bg-[#1e293b] hover:shadow-lg hover:shadow-purple-500/20' : 'bg-gray-200 hover:shadow-xl'}`}
             >
               <div className="flex justify-between items-start mb-6">
                 <div>

@@ -22,7 +22,7 @@ const ProjectsSection = ({ darkMode }) => {
             onClick={() => setActiveFilter('All')} 
             className={`px-6 py-2 rounded-full !rounded-button whitespace-nowrap transition-all duration-200 cursor-pointer ${activeFilter === 'All' ? 
               (darkMode ? 'bg-[#818cf8] text-white' : 'bg-[#6366f1] text-white') : 
-              (darkMode ? 'bg-[#0f172a] text-[#f8fafc]' : 'bg-white text-[#1e293b]')
+              (darkMode ? 'bg-[#0f172a] text-[#f8fafc]' : 'bg-gray-200 text-[#1e293b]')
             }`}
           >
             All
@@ -34,7 +34,7 @@ const ProjectsSection = ({ darkMode }) => {
               onClick={() => setActiveFilter(tech)} 
               className={`px-6 py-2 rounded-full !rounded-button whitespace-nowrap transition-all duration-200 cursor-pointer ${activeFilter === tech ? 
                 (darkMode ? 'bg-[#818cf8] text-white' : 'bg-[#6366f1] text-white') : 
-                (darkMode ? 'bg-[#0f172a] text-[#f8fafc]' : 'bg-white text-[#1e293b]')
+                (darkMode ? 'bg-[#0f172a] text-[#f8fafc]' : 'bg-gray-200 text-[#1e293b]')
               }`}
             >
               {tech}
@@ -46,7 +46,7 @@ const ProjectsSection = ({ darkMode }) => {
           {filteredProjects.map((project) => (
             <div 
               key={project.id} 
-              className={`group rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 ${darkMode ? 'bg-[#0f172a] hover:shadow-lg hover:shadow-purple-500/20' : 'bg-white hover:shadow-xl'}`}
+              className={`group rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 ${darkMode ? 'bg-[#0f172a] hover:shadow-lg hover:shadow-purple-500/20' : 'bg-gray-200 hover:shadow-xl'}`}
             >
               <div className="relative overflow-hidden h-64">
                 <img 
@@ -68,7 +68,7 @@ const ProjectsSection = ({ darkMode }) => {
                     <div className="flex gap-4">
                       <a 
                         href={project.liveLink} 
-                        className="px-4 py-2 bg-white text-[#1e293b] rounded-full !rounded-button whitespace-nowrap font-medium hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+                        className="px-4 py-2 bg-gray-200 text-[#1e293b] rounded-full !rounded-button whitespace-nowrap font-medium hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
                       >
                         Live Preview
                       </a>

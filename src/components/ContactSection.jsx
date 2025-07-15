@@ -191,7 +191,7 @@ const ContactSection = ({ darkMode }) => {
                     className={`w-full px-4 py-3 rounded-lg border-none focus:ring-2 focus:ring-[#6366f1] outline-none ${
                       darkMode
                         ? "bg-[#1e293b] text-[#f8fafc]"
-                        : "bg-white text-[#1e293b]"
+                        : "bg-gray-200 text-[#1e293b]"
                     }`}
                     placeholder="Your name"
                     required
@@ -210,7 +210,7 @@ const ContactSection = ({ darkMode }) => {
                     className={`w-full px-4 py-3 rounded-lg border-none focus:ring-2 focus:ring-[#6366f1] outline-none ${
                       darkMode
                         ? "bg-[#1e293b] text-[#f8fafc]"
-                        : "bg-white text-[#1e293b]"
+                        : "bg-gray-200 text-[#1e293b]"
                     }`}
                     placeholder="Your email"
                     required
@@ -230,7 +230,7 @@ const ContactSection = ({ darkMode }) => {
                   className={`w-full px-4 py-3 rounded-lg border-none focus:ring-2 focus:ring-[#6366f1] outline-none ${
                     darkMode
                       ? "bg-[#1e293b] text-[#f8fafc]"
-                      : "bg-white text-[#1e293b]"
+                      : "bg-gray-200 text-[#1e293b]"
                   }`}
                   placeholder="Your message"
                   required
