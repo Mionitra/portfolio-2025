@@ -104,7 +104,7 @@ const SkillsSection = ({ darkMode }) => {
                   )}
                   {framework === 'Java' && (
                     <>
-                      <li>Programmation Orientée Objet(POO)</li>
+                      <li>Object Oriented Programming(OOP)</li>
                       <li>Multithreading</li>
                     </>
                   )}
