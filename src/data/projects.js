@@ -6,6 +6,7 @@ const projects = [
   { id: 5, title: 'To do Application', description: 'Add notes with a user-friendly interface', technologies: ['Java Swing', 'Java'], image: '/media/images/java.png', liveLink: '#', githubLink: 'https://github.com/Mionitra/java-swing' },
   { id: 6, title: 'Studio Design', description: 'Blend strategy, design, and technology to build digital products that stand out in a crowded world.', technologies: ['React', 'Tailwindcss', 'GSAP'], image: '/media/images/studio-design.png', liveLink: 'https://youtu.be/CODXnuHZIUA', githubLink: 'https://github.com/Mionitra/studio-design.git' },
   { id: 7, title: 'JobBoard', description: 'Job portal with Angular and Nest js', technologies: ['Angular', 'Scss', 'Nestjs', 'MongoDB'], image: '/media/images/jobboard.png', liveLink: 'https://drive.google.com/file/d/1qaH9NQ-RtuifMx-xMiTmy23BrjlAfJPt/view?usp=sharing', githubLink: 'https://github.com/Mionitra/job-board-project.git' },
+  { id: 8, title: 'Reversi (Othello)', description: 'Classic Reversi / Othello board strategy game built with Godot Engine, featuring playable Windows executable demo.', technologies: ['Godot', 'GDScript'], image: '/media/images/reversi.png', liveLink: '/media/Reversi.rar', githubLink: 'https://github.com/Mionitra/reversi' },
 ]
 
 export default projects

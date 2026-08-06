@@ -11,7 +11,7 @@ export default function ProjectsSection() {
   const t = translations[language].projects
 
   const filteredProjects = activeFilter === 'All' ? projects : projects.filter(project => project.technologies.includes(activeFilter))
-  const techFilters = ['React', 'Java', 'Django', 'TailwindCSS', 'GSAP', 'Angular', 'Nestjs']
+  const techFilters = ['React', 'Java', 'Django', 'Godot', 'TailwindCSS', 'GSAP', 'Angular', 'Nestjs']
 
   return (
     <section id="projects" className={`py-20 ${darkMode ? 'bg-[#1e293b]' : 'bg-[#e9ecef]'}`}>
@@ -40,8 +40,8 @@ export default function ProjectsSection() {
                       ))}
                     </div>
                     <div className="flex gap-4">
-                      <a href={project.liveLink} className="px-4 py-2 bg-gray-200 text-[#1e293b] rounded-full !rounded-button whitespace-nowrap font-medium hover:bg-gray-100 transition-colors duration-200 cursor-pointer">{t.livePreview}</a>
-                      <a href={project.githubLink} className="px-4 py-2 bg-gray-800 text-white rounded-full !rounded-button whitespace-nowrap font-medium hover:bg-gray-700 transition-colors duration-200 cursor-pointer"><i className="fab fa-github mr-2"></i>{t.code}</a>
+                      <a href={project.liveLink} download={project.liveLink.endsWith('.rar')} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-200 text-[#1e293b] rounded-full !rounded-button whitespace-nowrap font-medium hover:bg-gray-100 transition-colors duration-200 cursor-pointer">{t.livePreview}</a>
+                      <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full !rounded-button whitespace-nowrap font-medium hover:bg-gray-700 transition-colors duration-200 cursor-pointer"><i className="fab fa-github mr-2"></i>{t.code}</a>
                     </div>
                   </div>
                 </div>

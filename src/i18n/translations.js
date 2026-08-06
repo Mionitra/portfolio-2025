@@ -11,6 +11,8 @@ const translations = {
       descBottomLeft: 'Curious L3 Computer Science student at INSI and full-stack developer, bridging frontend, backend, and mobile technologies with strong algorithmic problem-solving.',
       screensAlt: 'Preview of apps and interfaces',
       getInTouch: 'Get in touch',
+      downloadCv: 'Download my CV',
+      badge: 'Open for Sept-Nov Internship',
     },
     header: {
       home: 'Home',
@@ -76,6 +78,8 @@ const translations = {
       descBottomLeft: 'Étudiant curieux en L3 Informatique à l\'INSI et développeur full-stack, alliant frontend, backend et technologies mobiles avec de solides compétences en résolution algorithmique.',
       screensAlt: 'Aperçu d\'applications et d\'interfaces',
       getInTouch: 'Contactez‑moi',
+      downloadCv: 'Télécharger mon CV',
+      badge: 'Ouvert pour un stage de Sept-Nov',
     },
     header: {
       home: 'Accueil',
